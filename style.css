@@ -1,0 +1,126 @@
+/* roboto */
+@import url(https://fonts.googleapis.com/css?family=Roboto:400,500,700,900);
+
+:root {
+  --bg: #1e252d;
+  --secondary: #e7e8e8;
+  --secondary1: #3a3a3a;
+
+  --primary: #2298ff;
+  --primary-a: #2298ffd7;
+}
+.root {
+  width: 40rem;
+  height: 16rem;
+  background-color: var(--bg);
+  color: var(--secondary);
+  padding: 20px;
+  margin: 0;
+
+  font-family: 'Roboto', sans-serif;
+
+  outline: none;
+  border: none;
+  box-shadow: none;
+}
+
+nav {
+  width: calc(100vw);
+  padding-bottom: 15px;
+  display: flex;
+  font-size: 20px;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+
+  min-height: 1.2rem;
+}
+
+.row {
+  display: flex;
+  flex-direction: row;
+}
+
+.gap-10px {
+  display: flex;
+  gap: 10px;
+}
+
+.gap-30px {
+  display: flex;
+  gap: 30px;
+}
+
+.ai {
+  display: flex;
+  align-items: center;
+}
+
+.col {
+  display: flex;
+  flex-direction: column;
+}
+
+h3 {
+  width: 100%;
+  font-size: 1.2rem;
+  padding-bottom: 5px;
+  border-bottom: 1px solid var(--secondary1);
+}
+
+.mr40px {
+  margin-right: 40px;
+}
+
+._23ft {
+  font-size: 23px;
+}
+
+#upgradesList {
+  font-size: 20px;
+}
+
+.button {
+  font-size: 16px;
+  padding: 10px;
+  border-radius: 5px;
+  min-width: 4rem;
+  max-width: fit-content;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--primary);
+  color: var(--secondary);
+  user-select: none;
+  cursor: pointer;
+}
+
+.fc {
+  min-width: fit-content;
+}
+
+.c {
+  margin-left: 40%;
+}
+
+.abs {
+  position: absolute;
+}
+
+.button:active {
+  background-color: var(--primary-a);
+}
+
+.reset {
+  position: absolute;
+  bottom: 10px;
+  right: 10px;
+}
+
+.mla {
+  margin-left: auto;
+}
+
+.invis {
+  display: none;
+}

@@ -1,0 +1,21 @@
+{
+    "name": "0Clicker",
+    "description": "Clicker Game for epic people",
+    "version": "1.0",
+    "manifest_version": 3,
+    "background": {
+      "service_worker": "background.js"
+    },
+    "permissions": ["storage", "activeTab", "scripting"],
+    "action": {
+      "default_popup": "popup.html"
+    },
+    "content_scripts": [
+      {
+        "matches": [
+          "<all_urls>"
+        ],
+        "js": ["clicker.js"]
+      }
+    ]
+  }
